@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var apiRoot = 'http://http://afternoon-escarpment-45676.herokuapp.com/v1/task/';
+  var apiRoot = '/http://afternoon-escarpment-45676.herokuapp.com/v1/task/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   var tasksContainer = $('[data-tasks-container]');
 
